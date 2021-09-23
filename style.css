@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200&family=Nunito&family=Oxygen:wght@300&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Nunito&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head {
+    display: flex;
+    width: 100%;
+    height: 85px;
+    /* background-color: blueviolet; */
+}
+.tankapp {
+    position: absolute;
+    display: flex;
+    margin-top: 1.5%;
+    margin-left: 12%;
+    /* background-color: wheat; */
+    width: 200px;
+    height: 40px;
+}
+.tankapp #text1 {
+    color: black;
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif; 
+}
+.tankapp #text2{
+    align-self: flex-start;
+    margin-top: 0;
+    font-size: 36px;
+    font-family: 'Nunito', sans-serif; 
+    color: dodgerblue;
+}
+.menu {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55%;
+    width: 500px;
+    height: 50px;
+    /* background-color: forestgreen; */
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #8d939b;
+    font-size: 17pxx;
+}
+.mainhead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    /* width: 100%;
+    height: 800px; */
+    background: url(./img/CompositeLayer@1X\ \(1\).png);
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    /* -moz-background-size: 100%; /* Firefox 3.6+ */
+    /* -webkit-background-size: 100%; */
+    /* background-size: 100%; Современные браузеры */
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ebf4ff;
+    font-size: 28px;
+}
+h1 {
+    margin-top: 3%;
+}
+.maintext {
+    margin-top: 20%;
+}
+.mainhead  #p2 {
+    margin-top: 4%;
+    font-size: 22px;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.free {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 30px;
+    width: 155px;
+    /* background-color: grey; */
+}
+.free #p1 {
+    font-size: 18px;
+} 
+.gradient-button  {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fcbf3afd;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.input1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+    margin-top: 2%;
+}
+.inputmenu {
+    width: 424px;
+    height: 55px; 
+    border: none;  
+    border-radius: 4px;
+    padding-left: 1%;
+    font-size: 16px;
+    color: rgba(141, 139, 139, 0.781);
+}
+.input_button {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 114px;
+    height: 55px;
+    margin-bottom: 30%;
+    background-color: #57af1d;
+    border: none;
+    color: white;
+    padding-left: 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 8px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7%;
+    width: 100%;
+    height: 30px;
+}
+.cont_reason{
+    display: flex;
+    width: 100%;
+    margin-top: 11%;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(80, 80, 80);
+}
+.cont1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.textforcont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5%;
+}
+.textforcont1{
+    margin-top: 10%;
+}
+.picture{
+    display: flex;
+    margin-top: 14%;
+    width: 900px;
+    height: 600px;
+}
+.cont_reason2 {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 11%;
+}
+.name2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 25px;
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(80, 80, 80);
+}
+.cont2{
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.picture3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.inputend{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+.input_end {
+    width: 424px;
+    height: 55px; 
+    border: 2px solid;  
+    border-radius: 4px;
+    padding-left: 1%;
+    font-size: 16px;
+    color: rgba(141, 139, 139, 0.781);
+}
+.input_button2 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 114px;
+    height: 55px;
+    background-color: #57af1d;
+    border: none;
+    color: white;
+    padding-left: 17px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.head1 {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: 8%;
+    background-color: lightgray;
+}
+.tankapp2 {
+    position: absolute;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 12%;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: wheat; */
+    width: 200px;
+    height: 40px;
+}
+.tankapp #text3 {
+    color: black;
+    font-family: 'Nunito', sans-serif; 
+}
+.tankapp #text4{
+    align-self: flex-start;
+    margin-top: 0;
+    font-family: 'Nunito', sans-serif; 
+    color: dodgerblue;
+}
+.menu1 {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55%;
+    width: 500px;
+    height: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    /* background-color: forestgreen; */
+    color: #8d939b;
+    font-size: 17pxx;
+}
